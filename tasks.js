@@ -4,7 +4,7 @@ function myFilter(array, callbackFunc) {
   for (let i = 0; i < array.length; i++) {
     const result = callbackFunc(array[i], i, array);
 
-    if(result) {
+    if (result) {
       filterArray.push(array[i]);
     }
   }
